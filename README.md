@@ -31,3 +31,7 @@ environnement de developpement de samuel TAHIN - B1 DEV, IFRAN.
 | nano     | 8-7-1   | `sudo apt install -y nano`                          |
 | Node.js  | 22.22.1 | dépôt NodeSource, puis `sudo apt install -y nodejs` |
 | npm      | 11.20.0 | installé avec Node.js                               |
+
+## Historique
+
+Ce dossier est suivi avec Git depuis le sous-module 2.
