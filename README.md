@@ -32,6 +32,36 @@ environnement de developpement de samuel TAHIN - B1 DEV, IFRAN.
 | Node.js  | 22.22.1 | dépôt NodeSource, puis `sudo apt install -y nodejs` |
 | npm      | 11.20.0 | installé avec Node.js                               |
 
+## Installation
+
+### 1. Installer Ubuntu et VS Code
+
+- **Windows :** dans le Terminal (administrateur), taper `wsl --install`,
+  redémarrer, puis choisir un nom d'utilisateur et un mot de passe Ubuntu.
+- **Mac :** installer Homebrew depuis [brew.sh](https://brew.sh), puis taper
+  `brew install colima docker`, `colima start` et `colima ssh`.
+- Installer VS Code depuis [code.visualstudio.com](https://code.visualstudio.com).
+
+### 2. Installer les outils dans Ubuntu
+
+1. Ouvrir Ubuntu et aller dans le dossier du projet : `cd ~/dev/env-dev-kone`
+2. Lancer le script d'installation : `./scripts/installer.sh`
+
+## Vérification
+
+Lancer `./scripts/verifier.sh` dans Ubuntu.
+Résultat attendu : une version pour Ubuntu, Git, Node.js, npm et tree.
+
+## Contenu du dossier
+
+| Fichier ou dossier     | Rôle                    |
+| ---------------------- | ----------------------- |
+| `README.md`            | Cette documentation     |
+| `JOURNAL.md`           | Le journal de mes choix |
+| `docs/aide-memoire.md` | aide a me souvenir      |
+| `scripts/installer.sh` | installer outils        |
+| `scripts/verifier.sh`  | verification de poste   |
+
 ## Historique
 
 Ce dossier est suivi avec Git depuis le sous-module 2.
