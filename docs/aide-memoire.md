@@ -16,3 +16,10 @@
 ## Lire et chercher
 
 …
+
+## Branches
+
+| Commande     | Ce qu'elle fait                                   | Exemple                       |
+| ------------ | ------------------------------------------------- | ----------------------------- |
+| 'git branch' | liste les branche de mon depot                    | 'git branch'                  |
+| 'git switch' | creer une nouvelle branch et se positionne dessus | 'git switch -c ajout-section' |
