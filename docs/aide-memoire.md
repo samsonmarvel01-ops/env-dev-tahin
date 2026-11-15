@@ -37,10 +37,10 @@
 | `tail`   | affiche les derniere ligne       | `tail note.txt`          |
 | `find`   | retrouve un fichier par son nom  | `lind . -name "facture"` |
 
-## Branches
+## Branch
 
 | Commande     | Ce qu'elle fait                                   | Exemple                       |
 | ------------ | ------------------------------------------------- | ----------------------------- |
 | `git branch` | liste les branche de mon depot                    | `git branch`                  |
 | `git switch` | creer une nouvelle branch et se positionne dessus | `git switch -c ajout-section` |
-| `git merge`  | fusionne une branch a la branch ou vous étes      | `git merge ajout-section`     |
+| `git merge`  | fusionne une branch a la branch ou vous etes      | `git merge ajout-section`     |
