@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "=== Vérification du poste de Awa KONE ==="
+echo "=== Vérification du poste de Tahin samuel ==="
 echo
 echo "Ubuntu :"
 lsb_release -d
