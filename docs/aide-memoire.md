@@ -44,3 +44,7 @@
 | `git branch` | liste les branche de mon depot                    | `git branch`                  |
 | `git switch` | creer une nouvelle branch et se positionne dessus | `git switch -c ajout-section` |
 | `git merge`  | fusionne une branch a la branch ou vous etes      | `git merge ajout-section`     |
+
+## Astuce de Awa
+
+`git log --oneline --graph` dessine l'historique avec les branches.
