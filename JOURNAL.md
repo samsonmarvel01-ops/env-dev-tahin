@@ -19,3 +19,14 @@
 - **Autres possibilités :** neant
 - **Raison :**GitHub se distingue par sa capacité à héberger des ligne de code
   permettant aux developpeurs de partager et d'ameliorer le code ensemble
+
+## Travailler avec des branches
+
+**Décision :** Je crée une branche pour chaque nouvelle modification, puis je la fusionne dans main quand le travail est terminé et vérifié.
+
+**Autres possibilités :**
+
+- Tout modifier directement sur main, sans créer de branche.(mais c'est tres déconseillé)
+- Copier le dossier du projet à chaque essai (env-dev-kone-v2, env-dev-kone-final...)
+
+**Raison :** main est la « copie propre » du projet : elle doit toujours fonctionner. Une branche, c'est le brouillon : je peux essayer, me tromper et faire plusieurs commits sans risquer de casser ce qui marche.
