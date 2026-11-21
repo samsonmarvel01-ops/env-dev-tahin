@@ -37,10 +37,28 @@
 | `tail`   | affiche les derniere ligne       | `tail note.txt`          |
 | `find`   | retrouve un fichier par son nom  | `lind . -name "facture"` |
 
-## Branch
+## Branches
 
-| Commande     | Ce qu'elle fait                                   | Exemple                       |
-| ------------ | ------------------------------------------------- | ----------------------------- |
-| `git branch` | liste les branche de mon depot                    | `git branch`                  |
-| `git switch` | creer une nouvelle branch et se positionne dessus | `git switch -c ajout-section` |
-| `git merge`  | fusionne une branch a la branch ou vous etes      | `git merge ajout-section`     |
+| Commande                          | Ce qu'elle fait                                   | Exemple                           |
+| --------------------------------- | ------------------------------------------------- | --------------------------------- |
+| `git branch`                      | liste les branche de mon depot                    | `git branch`                      |
+| `git switch`                      | creer une nouvelle branch et se positionne dessus | `git switch -c ajout-section`     |
+| `git merge`                       | fusionne une branch a la branch ou vous etes      | `git merge ajout-section`         |
+| `git branch -d`                   | supprime une branch                               | `git branch -d ajout-section`     |
+| `git switch -c`                   | Crée une branche et va dessus                     | `git switch -c ajout-section`     |
+| `git log --oneline --graph --all` | Dessine l’historique avec toutes les branches     | `git log --oneline --graph --all` |
+
+## Programmes et processus
+
+| Commande      | Ce qu'elle fait                                                | Exemple                                       |
+| ------------- | -------------------------------------------------------------- | --------------------------------------------- | ------- | ----------- |
+| `sleep 300`   | Un programme qui attend 300 secondes sans rien faire           | `sleep 300`                                   |
+| `sleep 300 &` |   Lance le programme en arrière-plan                           | `sleep 300 &`                                 |
+| `jobs`        | Liste les programmes lancés en arrière-plan depuis ce terminal | `jobs`                                        |
+| `ps`          | Liste les processus de ce terminal, avec leur PID              | `ps`                                          |
+| `ps aux`      | Liste tous les processus d’Ubuntu                              | `ps aux`                                      |
+| `ps aux       | grep sleep`                                                    |   Retrouve les processus sleep  dans la liste | `ps aux | grep sleep` |
+| `kill`        | Demande au processus n° 1234 de s’arrêter                      | `kill 1234`                                   |
+| `kill -9`     | Force l’arrêt du processus n° 1234                             | `kill -9 1234`                                |
+| `pkill`       | Arrête tous les processus qui s’appellent sleep                | `pkill sleep`                                 |
+| `top`         | Affiche les processus en temps réel                            | `top`                                         |
